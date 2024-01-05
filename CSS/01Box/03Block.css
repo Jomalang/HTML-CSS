@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #ffffff;
+}
+
+.child {
+    background-color: #ffc82c;
+    width : 100px;
+    height : 100px;
+}
+.other {
+    background-color: #ff4949;
+    width : 130px;
+    height : 100px;
+}
