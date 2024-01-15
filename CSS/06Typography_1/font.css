@@ -1,0 +1,11 @@
+@font-face {
+    font-family: NanumSquareRound;
+    font-style :normal;
+    font-weight:400;
+    src: url('./assets/font/NanumSquareRound-master/NanumSquareRoundR.eot'); 
+  src: url('./assets/font/NanumSquareRound-master/NanumSquareRoundR.eot?#iefix') format('embedded-opentype'), 
+       url('./assets/font/NanumSquareRound-master/NanumSquareRoundR.woff2') format('woff2'),
+       url('./assets/font/NanumSquareRound-master/NanumSquareRoundR.woff') format('woff'), 
+       url('./assets/font/NanumSquareRound-master/NanumSquareRoundR.ttf')  format('truetype'); 
+      
+}
