@@ -1,0 +1,161 @@
+.like-button {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* ▼ WHERE YOUR CODE BEGINS */
+
+  * {
+    box-sizing: border-box;
+    margin:0;
+  }
+
+  body{
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .sr-only {
+    position:absolute;
+    z-index: -100;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    opacity:0%;
+}
+
+
+  .card {
+    width:840px;
+    height :248px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding:24px;
+  }
+
+  .card-image{
+    width:300px;
+    height:200px;
+    background-image: url(./assets/img-house.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow:hidden;
+    border-radius: 6px;
+    position: relative
+  }
+
+  .like-button{
+    background-image: url(./assets/icon-favorite.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    width:36px;
+    height:36px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top:12px;
+    left:12px;
+  }
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-left: 24px;
+}
+  
+.card-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+  .plus-badge {
+    display: inline-block;
+    width:48px;
+    height:22px;
+    background-color: #92174D;
+    color:#fff;
+    font-size: 14px;
+    line-height: 1.428571428571429em;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding:1px 8px;
+    margin-right: 6px;
+  }
+
+  .property-type span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    color:#7D858F;
+  }
+
+  .property-rate {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+.property-rate::before{
+    content:"";
+    display: inline-block;
+    position:relative;
+    top:2px;
+    width:16px;
+    height:16px;
+    background-image: url(./assets/icon-star.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+  
+.property-rate strong {
+    color : #151B26;
+    font-weight: 400;
+    
+  }
+  
+.property-rate span {
+    color :#7D858F;
+    font-weight: 400;
+}
+
+  .card-title {
+    color:#151B26;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+  
+
+.property-detail{
+    color:#7D858F;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.142857142857143;
+}
+
+.property-detail div{
+    margin-bottom: 8px;
+}
+
+.property-detail dd span::after {
+    content:"·";
+    margin: 0 6px;
+}
+
+.property-detail dd span:last-child::after{
+    content:"";
+    margin:0;
+}
