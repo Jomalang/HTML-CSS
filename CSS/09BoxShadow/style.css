@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+
+button {
+    width : 161px;
+    height : 56px;
+    border-radius: 100px;
+    border:none;
+    margin-right : 16px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cancel-button {
+    background-color: #ff4949;
+    transition: box-shadow 1000ms;
+}
+
+.cancel-button:hover{
+    box-shadow: 0 10px 16px 0 rgba(255, 73, 73, 0.35);
+}
+
+.confirm-button {
+    background-color: #13ce66;
+    transition: box-shadow 1000ms;
+}
+
+.confirm-button:hover{
+    box-shadow: 0 10px 16px 0 rgba(19 , 206, 102, 0.35);
+}

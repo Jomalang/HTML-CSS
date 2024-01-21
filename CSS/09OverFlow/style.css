@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+p {
+    width:500px;
+    height:400px;
+    background-color: #0066ff;
+    overflow: hidden;
+}
+
+blockquote{
+    width:500px;
+    height:400px;
+    background-color: #ffcc82;
+    overflow: scroll;
+}
